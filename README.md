@@ -1,6 +1,11 @@
 # Fcubed
 Fcubed (Felipe's Fuzzy Finder) is a lightweight plugin I created to explore and understand the integration of Lua within Neovim.
 
+## Dependencies
+
+- fzf
+- ripgrep
+
 ## Setup
 
 ```lua
@@ -16,4 +21,10 @@ require("fcubed").setup({
 :FcubedFile   - Search for file
 :FcubedString - Search for string
 :FcubedCursor - Search for string below cursor
+```
+
+## Planned
+
+```
+:FcubedBuffer - Search for buffer
 ```
