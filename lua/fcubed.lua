@@ -1,5 +1,6 @@
 -- Fcubed - Felipe's Fuzzy Finder
 
+-- Create the module
 local M = {}
 
 -- Width and height to screen ratio for the finder window
@@ -162,9 +163,5 @@ vim.api.nvim_create_user_command("FcubedCursor", function()
     end
 end, {})
 
-
--- Key mapping to trigger the function
--- vim.api.nvim_set_keymap("n", "-", ":FcubedCursor<CR>", { noremap = true, silent = true })
--- vim.api.nvim_set_keymap("n", "<leader>-", ":FcubedString<CR>", { noremap = true, silent = true })
-
+-- Return the module
 return M
